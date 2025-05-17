@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 – Dynamic Web Fundamentals - Ngonidzaishe Chareka</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals, Ngonidzaishe Chareka, A course landing page for web development.">
+    <meta name="author" content="Ngonidzaishe Chareka">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Ngonidzaishe</h1>
+    <header>
+        <h1>Welcome to WDD 131</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/ngonidzaishe-chareka-604598270">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures">Favorite Scripture</a></li>
+                <li><a href="#">Final Project Folder</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Card Title 1</h2>
+            <img src="images/image1.jpg" alt="Description of image 1">
+            <p>Content for the first card goes here.</p>
+        </section>
+        <section class="card">
+            <h2>Card Title 2</h2>
+            <img src="images/image2.jpg" alt="Description of image 2">
+            <p>Content for the second card goes here.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Ngonidzaishe Chareka, Your State or Country.</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
