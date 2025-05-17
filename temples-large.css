@@ -1,0 +1,16 @@
+/* Larger View Styles */
+@media (min-width: 600px) {
+    #nav-menu {
+        display: flex; /* Show menu */
+    }
+
+    figure {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

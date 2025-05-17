@@ -1,0 +1,38 @@
+/* Mobile Styles */
+body {
+    font-family: 'Your Selected Font', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-menu {
+    display: none; /* Hidden by default */
+}
+
+#hamburger {
+    background: none;
+    border: none;
+    font-size: 2rem;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
